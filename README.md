@@ -34,7 +34,7 @@ Execution:
 Screenshot:
 ---------------
 *	Most of the time we think to Capture Screenshot in WebDriver when some kind of error or exception surfaces while practicing testing, to resolve the same the framework has a method. 
-*	getScreenshot() is used to indicates driver to capture a screenshot and store it in //screenshot/packageName directory.
+*	getScreenshot(String testName) is used to indicates driver to capture a screenshot and store it in //target//results directory.
 
 Reporting:
 ---------------
